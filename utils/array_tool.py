@@ -12,7 +12,7 @@ def totensor(data, cuda = True):
     if isinstance(data, np.ndarray):
         tensor = torch.from_numpy(data)
     if isinstance(data, torch.Tensor):
-        tnesor = data.detach()
+        tensor = data.detach()
     if cuda:
         tensor = tensor.cuda()
     return tensor
