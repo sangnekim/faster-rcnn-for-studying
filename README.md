@@ -44,7 +44,7 @@ nohup python -m visdom.server &
 ```
 
 #### 2.3 데이터 폴더 경로 설정
-utils/config.py 에서 voc_data_dir을 데이터가 있는 경로로 설정  
+utils/config.py 에서 voc_data_dir을 데이터가 있는 경로로 설정 또는 실행할 때 argument로 지정하기  
 ex) `voc_data_dir = path/VOCdevkit/VOC2007/`
 
 ### 3. 학습하기
