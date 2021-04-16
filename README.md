@@ -65,10 +65,12 @@ Some Key arguments:
 Pytorch에서 사용할 수 있는 시각화 도구 visdom을 통해 logging을 하고 visualization을 한다.  
 해당 결과를 확인하기 위해서는 다음과 같이 하면 된다.  
 <br>
-local: 웹 브라우저 url에 `http://localhost:8097`로 visdom server 접속 `8097`은 default 값이다
-<br>
-virtual machine: ssh로 가상 머신에 접속할 때 visdom server를 local 웹 브라우저와 연결시켜줘야 한다.  
+#### Local
+웹 브라우저 url에 `http://localhost:8097`로 visdom server 접속 `8097`은 default 값이다
 
- -1. 서버 접속: `ssh <Username>@<Host> -p<port> -L localhost:18097:localhost:8097`
- -2. visdom 연결: 웹 브라우저 url에 `http://localhost:18097`로 visdom server 접속
+#### Virtual Machine
+ssh로 가상 머신에 접속할 때 visdom server를 local 웹 브라우저와 연결시켜줘야 한다.
+
+ 1 `ssh <Username>@<Host> -p<port> -L localhost:18097:localhost:8097`
  
+ 2 웹 브라우저 url에 `http://localhost:18097`로 visdom server 접속
