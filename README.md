@@ -2,6 +2,7 @@
 
 ## 소개
 Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks 논문 리뷰 및 코드 공부  
+(https://arxiv.org/abs/1506.01497)  
 <br>
 논문 리뷰: https://velog.io/@skhim520/Faster-R-CNN-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-%EB%B0%8F-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84  
 참고한 코드(baseline): https://github.com/chenyuntc/simple-faster-rcnn-pytorch  
